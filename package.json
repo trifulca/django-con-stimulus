@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "stimulus": "^1.1.1",
+    "webpack": "^4.29.4",
+    "webpack-bundle-tracker": "^0.4.2-beta"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}

@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% block contenido %}
+
+<div class="flex pa3 sans-serif">
+
+  <div class="shadow-1 flex1 pa3">
+    <div data-controller="diferido" data-diferido-url="/usuarios">
+      <div class="mb1 bg-light-gray w5">&nbsp;</div>
+      <div class="mb1 bg-light-gray w5">&nbsp;</div>
+    </div>
+  </div>
+
+</div>
+
+    <div class="pa3 sans-serif measure shadow-1 ma3">
+      <p>Index</p>
+
+      <div data-controller="hello">
+        <div class="mv2">
+          <div class="pb2">
+            Nombre <span class='gray'>(opcional)</span>
+          </div>
+          <input autofocus class="w-100 br2 ba b--silver input-reset pa2 inset no-outline" type="text">
+        </div>
+
+        <div class="mv2">
+          <div class="pb2">
+            Apellido <span class='gray'>(opcional)</span>
+          </div>
+          <input class="w-100 br2 ba b--silver input-reset pa2 inset no-outline" type="text">
+        </div>
+
+        <button class="pv2 ph4 bg-silver white bn pointer bg-animate hover-bg-gray no-outline active">Enviar</button>
+      </div>
+
+    </div>
+
+{% endblock %}
