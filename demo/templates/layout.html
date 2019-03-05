@@ -7,7 +7,8 @@
     <meta charset="utf-8">
     <title>{% block title%}Index{%endblock%}</title>
     <script src="{% static 'turbolinks.js' %}" charset="utf-8"></script>
-<meta name="turbolinks-cache-control" content="no-cache">
+
+    <meta name="turbolinks-cache-control" content="no-cache">
     <link rel="stylesheet" type="text/css" href="{% static 'app.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'tachyons.min.css' %}">
 
@@ -18,13 +19,8 @@
     {% load menu_tags %}
 
 
-    {% menu logo='logo'%}
+    {% menu logo='Django + Stimulus.js'%}
 
-
-    <p data-turbolinks-permanent id='menu'>
-      <a href="/">Index</a>
-      <a href="/about">About</a>
-    </p>
 
     {% block contenido %}
     {% endblock %}

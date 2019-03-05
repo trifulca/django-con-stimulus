@@ -11,6 +11,7 @@ django = "*"
 django-livereload-server = "*"
 django-webpack-loader = "*"
 honcho = "*"
+web-pdb = "*"
 
 
 [dev-packages]

@@ -7,3 +7,6 @@ ejecutar:
 
 migrar:
 	pipenv run python manage.py migrate
+
+shell:
+	pipenv run python shell

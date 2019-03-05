@@ -1,19 +1,11 @@
-<div class="menu-tag flex debug">
-  <div class="pa3">
-    {{logo}}
+<div class="menu-tag flex bg-light-gray pa1 shadow-2">
+  <div class="pa2">
+    <a class="link" href="/">{{logo}}</a>
   </div>
 
-  <div class="flex1">
-    dasd
-  </div>
-
-  <div class="flex">
-    {% for item in items %}
-
-      <div class="pa3">
-        {{item}}
-      </div>
-    {% endfor %}
+  <div class="tr flex1" data-turbolinks-permanent id='menu'>
+    <a class="dib bg-blue link dim pointer white serif pa2 mr2" href="/">Index</a>
+    <a class="dib bg-blue link dim pointer white serif pa2 mr2" href="/about">About</a>
   </div>
 
 </div>
